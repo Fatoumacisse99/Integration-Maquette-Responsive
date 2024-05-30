@@ -16,8 +16,8 @@
     
 
 }
-body{
-    overflow: hidden;
+body {
+    
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -25,10 +25,10 @@ body{
     
 
 }
-#header{
+#header {
    
 }
-.header-content, .content-features, #content-features, #join{
+.header-content, .content-features, #content-features, #join, .footer-content{
     
     width: 80%;
     margin: 0 auto;
@@ -81,7 +81,7 @@ nav ul{
 }
 
 .content-features .right h1{
-    font-size: 35px;
+    font-size: 40px;
     color: #ffffff;
 }
 
@@ -93,12 +93,14 @@ nav ul{
     
 }
 .content-features .right button{
-    align-self: self-start;
+
+    align-self: flex-start;
     background-color: var(--blue);
     border: 1px solid var(--blue);
-    padding: 10px 25px;
+    padding: 10px 60px;
     border-radius: 5px;
-    color: #ffffff;
+    color: #ffffff; 
+    margin-top: 25px;
 }
 .content-cadre {
     display: flex; 
@@ -136,9 +138,9 @@ nav ul{
     border-radius: 50%;
     background-color: rgb(52, 87, 178, .1);
     top: 500px;
-    /* left: 1150Px; */
     z-index: -1;
-    right: -50px;
+    right: 0;
+    
     
     
 }
@@ -206,35 +208,105 @@ nav ul{
     justify-content: space-between;
     align-items: center;
     
-    
+}
+#join .fun{
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+#join .fun span {
+    color: var(--pink-bg);
+    font-size: 70px;
+    font-weight: bold;
 }
 #join label{
     display: block;
     color: #ffffff;
-    margin-left: 5px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
-#join input{
-    padding: 10px 25px;
-    background-color: rgb(46, 44, 44);
+#join input {
+    
+    background-color: rgb(36, 35, 35);
     border:1px solid var(--blue);
     border-radius: 5px;
+    line-height:3 ;
+    width: 300px;
+    margin: 0 auto;
 }
-.content-inp-label{
+.content-inp-label {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 14px;
+    
+    
 }
-.content-form{
-    width: 500px;
-    height: 400px;
-    background-color: rgb(46, 44, 44);
+.content-form {
+    width: 400px;
+    height:400px;
+    background-color: rgb(36, 35, 35);
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 45px;
 
    
 }
-button{
-    align-self: center;
+.content-form button {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    word-spacing: 2;
+}
+footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 100px;
+   
+}
+.content-reseau{
+    display: flex;
+    justify-content:space-between ;
+    width: 300px;
+    font-size: 20px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    
+    align-items: center;
+    padding-top: 7px;
+}
+.footer-content ul{
+    display: flex;
+}
+.footer-content ul li{
+    list-style: none;
+    
+    width: 230px;
+}
+.footer-content img{
+    width: 20px;
+    height: 20px;
+
+}
+@media screen and (max-width:900px){
+     
+    .header-content {
+        width: 95%;
+    
+       
+
+
+    }
 }
