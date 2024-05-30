@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --dark-bg:#2F303A;
+    --pink-bg:#BC3A80;
+    --blue:#1762A7;
+    --white:#ffffff;
+    
+   
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+    
+
+}
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: var(--dark-bg);
+    
+
+}
+#header{
+   
+}
+.header-content, .content-features, #content-features, #join{
+    
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffffff;
+  
+   
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.header-content a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.logo img{
+    width: 300px;
+   
+}
+.content-features{
+    display: flex;
+    justify-content: space-between;
+   
+   
+
+}
+.content-features .left ,
+.content-features .right {
+    width: 50%;
+}
+.content-features .left img {
+    width: 80%;
+}
+.content-features .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-features .right h1{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.content-features .right P{
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 22px;
+    color: #ffffff;
+    
+}
+.content-features .right button{
+    align-self: self-start;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.content-cadre {
+    display: flex; 
+    gap: 30px;
+
+}
+.content-cadre h3{
+    color: #ffffff;
+    margin-top:0;
+}
+.cercle-rouge1 {
+    position: absolute; 
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: rgb(188, 58, 128, .1);
+    left: 90px;
+    bottom: 80px;
+    z-index: -1;
+}
+.cercle-rouge2 {
+    position: absolute; 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(52, 87, 178, .1);
+    top: 150px;
+    left: 500px;
+    z-index: -1;
+}
+.cercle-rouge3 {
+    position: absolute; 
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(52, 87, 178, .1);
+    top: 500px;
+    /* left: 1150Px; */
+    z-index: -1;
+    right: -50px;
+    
+    
+}
+#content-features{
+    display: flex;
+}
+#content-features .left, #content-features .right-img {
+    width: 50%;
+}
+
+#content-features .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#content-features .left h1{
+    color: #ffffff;
+   padding-bottom: 20px;
+    
+
+}
+#content-features .left p{
+    color: #ffffff;
+    line-height: 1.8;
+    word-spacing: 10px;
+    padding-top: 10px;
+}
+#content-features .cadre {
+    width: 110px;
+    height: 110px;
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+#content-features .cadre img {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+   
+}
+#content-features .right-img{
+    display: grid;
+    grid-template-rows: repeat(2, 220px);
+    grid-template-columns: repeat(2, 220px);
+    align-items: center;
+    margin-top: 50px;
+    
+   
+   
+    
+    
+}
+#content-features .right-img img {
+    width: 220px;
+    height: 220px;   
+    
+}
+#join {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#join label{
+    display: block;
+    color: #ffffff;
+    margin-left: 5px;
+}
+#join input{
+    padding: 10px 25px;
+    background-color: rgb(46, 44, 44);
+    border:1px solid var(--blue);
+    border-radius: 5px;
+}
+.content-inp-label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+}
+.content-form{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+   
+}
+button{
+    align-self: center;
+}
