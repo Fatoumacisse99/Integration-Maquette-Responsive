@@ -19,5 +19,3 @@ Ont été rencontrées, principalement dues à une compréhension insuffisante d
 techniques et des concepts nécessaires : – Media Queries : Comprendre et appliquer 
 
 Les media queries pour ajuster les styles en fonction de la taille de l'écran ont été un défi.
-
-git 
